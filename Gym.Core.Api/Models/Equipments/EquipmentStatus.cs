@@ -10,15 +10,10 @@ using System.Threading.Tasks;
 
 namespace Gym.Core.Api.Models.Equipments
 {
-    public class Equipment:IAuditable
+    public enum EquipmentStatus
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public DateTimeOffset PurchaseDate { get; set; }
-        public EquipmentStatus Status { get; set; } 
-        public DateTimeOffset CreatedDate { get; set; }
-        public DateTimeOffset UpdatedDate { get; set; }
-        public Guid CreatedBy { get; set; }
-        public Guid UpdatedBy { get; set; }
+        Available,
+        InMaintenance,
+        Sold
     }
 }

@@ -3,6 +3,7 @@
 // Licensed under the MIT License.
 // See License.txt in the project root for license information.
 // ---------------------------------------------------------------
+using Gym.Core.Api.Models.Memberships;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Gym.Core.Api.Models.PersonalDetails
 {
-    public class PersonalDetail
+    public class PersonalDetail: IAuditable
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -25,6 +26,12 @@ namespace Gym.Core.Api.Models.PersonalDetails
         public string Email { get; set; }
         public string Occupation { get; set; }
         public string Company { get; set; }
-        public string EmargencyContact { get; set; } 
+        public string EmargencyContact { get; set; }
+        public DateTimeOffset CreatedDate { get; set; }
+        public DateTimeOffset UpdatedDate { get; set; }
+        public Guid CreatedBy { get; set; }
+        public Guid UpdatedBy { get; set; }
+
+        public Membership Membership { get; set; } 
     }
 }
