@@ -5,12 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EFxceptions.Identity" Version="0.4.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Brokers\DateTimes\" />
+    <Folder Include="Brokers\Loggings\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Brokers\" />
     <Folder Include="Models\Attachments\Exceptions\" />
     <Folder Include="Models\BankingDetails\Exceptions\" />
     <Folder Include="Models\Equipments\Exceptions\" />
