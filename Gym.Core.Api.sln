@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gym.Core.Api", "Gym.Core.Api\Gym.Core.Api.csproj", "{DF802CE9-D20C-4C43-887F-D10561DF2650}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gym.Core.Api.Tests.Unit", "Gym.Core.Api.Tests.Unit\Gym.Core.Api.Tests.Unit.csproj", "{72B9FB47-1B59-439C-B4F3-22DD9D191A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gym.Core.Api.Tests.Acceptance", "Gym.Core.Api.Tests.Acceptance\Gym.Core.Api.Tests.Acceptance.csproj", "{76857179-3939-44E3-9992-46CCCF382BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DF802CE9-D20C-4C43-887F-D10561DF2650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF802CE9-D20C-4C43-887F-D10561DF2650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF802CE9-D20C-4C43-887F-D10561DF2650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B9FB47-1B59-439C-B4F3-22DD9D191A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B9FB47-1B59-439C-B4F3-22DD9D191A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B9FB47-1B59-439C-B4F3-22DD9D191A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B9FB47-1B59-439C-B4F3-22DD9D191A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76857179-3939-44E3-9992-46CCCF382BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76857179-3939-44E3-9992-46CCCF382BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76857179-3939-44E3-9992-46CCCF382BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76857179-3939-44E3-9992-46CCCF382BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
