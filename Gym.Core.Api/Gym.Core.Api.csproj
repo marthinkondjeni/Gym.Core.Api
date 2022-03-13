@@ -12,8 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Brokers\DateTimes\" />
-    <Folder Include="Brokers\Loggings\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\Attachments\Exceptions\" />
     <Folder Include="Models\BankingDetails\Exceptions\" />

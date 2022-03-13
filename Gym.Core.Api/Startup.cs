@@ -3,6 +3,8 @@
 // Licensed under the MIT License.
 // See License.txt in the project root for license information.
 // ---------------------------------------------------------------
+using Gym.Core.Api.Brokers.DateTimes;
+using Gym.Core.Api.Brokers.Loggings;
 using Gym.Core.Api.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,7 +28,10 @@ namespace Gym.Core.Api
         {
             services.AddScoped<IStorageBroker, StorageBroker>();
             services.AddDbContext<StorageBroker>();
+            services.AddTransient<IDateTimeBroker, DateTimeBroker>();
+            services.AddTransient<ILoggingBroker, LoggingBroker>();
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Gym.Core.Api", Version = "v1" });
