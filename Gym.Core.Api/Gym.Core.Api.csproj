@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\Attachments\Exceptions\" />
     <Folder Include="Models\BankingDetails\Exceptions\" />
     <Folder Include="Models\Equipments\Exceptions\" />
@@ -20,7 +19,8 @@
     <Folder Include="Models\PaymentHistorys\Exceptions\" />
     <Folder Include="Models\PersonalDetails\Exceptions\" />
     <Folder Include="Models\Users\Exceptions\" />
-    <Folder Include="Services\" />
+    <Folder Include="Services\Foundation\" />
+    <Folder Include="Services\Prosessing\" />
   </ItemGroup>
 
 </Project>

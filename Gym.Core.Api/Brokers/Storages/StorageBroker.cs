@@ -11,7 +11,7 @@ using System;
 
 namespace Gym.Core.Api.Brokers.Storages
 {
-    public class StorageBroker : EFxceptionsIdentityContext<User, Role, Guid>, IStorageBroker
+    public partial class StorageBroker : EFxceptionsIdentityContext<User, Role, Guid>, IStorageBroker
     {
         public readonly IConfiguration configuration;
 

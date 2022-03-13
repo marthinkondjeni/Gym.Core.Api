@@ -3,15 +3,15 @@
 // Licensed under the MIT License.
 // See License.txt in the project root for license information.
 // ---------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Gym.Core.Api.Brokers.Storages
+using Microsoft.AspNetCore.Mvc;
+
+namespace Gym.Core.Api.Controllers
 {
-    public partial interface IStorageBroker
+    public class HomeController : Controller
     {
+        public ActionResult Index() => Ok("Marthin is a man of timber and calimber");
+
 
     }
 }
