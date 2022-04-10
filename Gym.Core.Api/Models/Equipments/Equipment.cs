@@ -12,6 +12,8 @@ namespace Gym.Core.Api.Models.Equipments
         public Guid Id { get; set; }
         public string Name { get; set; }
         public DateTimeOffset PurchaseDate { get; set; }
+        public string PurchaseCompany { get; set; }
+        public string SerialNumber { get; set; } 
         public EquipmentStatus Status { get; set; } 
         public DateTimeOffset CreatedDate { get; set; }
         public DateTimeOffset UpdatedDate { get; set; }

@@ -19,7 +19,6 @@
     <Folder Include="Models\PaymentHistorys\Exceptions\" />
     <Folder Include="Models\PersonalDetails\Exceptions\" />
     <Folder Include="Models\Users\Exceptions\" />
-    <Folder Include="Services\Foundation\" />
     <Folder Include="Services\Prosessing\" />
   </ItemGroup>
 
